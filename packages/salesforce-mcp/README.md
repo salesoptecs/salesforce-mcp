@@ -1,15 +1,3 @@
-# SalesOptecs Salesforce MCP
-
-Free, local Salesforce tools for Sales Operations: query CRM data, investigate flow behavior, and prepare reviewed updates. Public alpha; live sandbox validation pending.
-
-[SalesOptecs setup guide](https://salesoptecs.com/tools/salesforce-mcp) | [MIT license](LICENSE)
-
-## Raw Python quick start
-
-Download [salesforce_mcp_server.py](salesforce_mcp_server.py). Python 3.10+ and Salesforce API access are required. Point your MCP client's command to Python and its args to this file. Set SF_USERNAME, SF_PASSWORD and SF_SECURITY_TOKEN in its private environment configuration, SF_DOMAIN=test for a sandbox, and SF_READONLY=1. Restart the client. Required Python libraries auto-install on first run. Never commit credentials. Query results may be sent to your AI model provider.
-
-For packaged installation, run the npm commands below from packages/salesforce-mcp. npm registry installation is not available yet.
-
 # SalesOptecs Salesforce MCP — reviewed updates (local alpha)
 
 This release focuses on a Sales Operations job: reviewing a proposed set of CRM

@@ -1,0 +1,10 @@
+{
+  "name": "@salesoptecs/salesforce-mcp",
+  "version": "2.0.0-alpha.1",
+  "private": true,
+  "description": "Salesforce MCP with local review of ID-based update proposals. Requires Python 3.10+.",
+  "bin": {"salesoptecs-mcp": "bin/cli.cjs"},
+  "files": ["bin/cli.cjs", "runtime/salesforce_mcp_server.py", "README.md"],
+  "engines": {"node": ">=20"},
+  "scripts": {"prepack": "node build.cjs", "test": "node --test test/*.test.cjs"}
+}

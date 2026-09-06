@@ -6,3 +6,5 @@ venv/
 .env
 *.log
 .DS_Store
+packages/salesforce-mcp/runtime/
+packages/salesforce-mcp/*.tgz
